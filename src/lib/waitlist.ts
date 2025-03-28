@@ -53,14 +53,12 @@ export async function addToWaitlist(email: string, referredBy?: string) {
 
   // Optional: increment referral count of referrer
   if (referredBy) {
-    console.log(referredBy, 'referred by @ update')
     const { data: referrer } = await supabase
       .from(tableName)
       .select('referral_count')
       .eq('referral_code', referredBy)
       .maybeSingle()
 
-    console.log(referrer, 'referrer from db')
     if (referrer) {
       const { data: updated, error: updateError } = await supabase
         .from(tableName)
@@ -71,8 +69,6 @@ export async function addToWaitlist(email: string, referredBy?: string) {
 
       if (updateError) {
         console.log('Error updating referral count', updateError.message)
-      } else {
-        console.log('referrer updated', updated)
       }
     }
   }
