@@ -66,12 +66,14 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
+import { useToast } from 'vue-toastification'
 
 import { getWaitlistUserByEmail } from '@/lib/waitlist'
 
 const signupUser = ref(null)
 const route = useRoute()
 const email = ref('')
+const toast = useToast()
 
 async function getUser() {
   if (!email.value) {
@@ -86,6 +88,9 @@ async function getUser() {
 async function copyToClipboard(text: string): Promise<boolean> {
   try {
     await navigator.clipboard.writeText(text)
+    toast('Copied to clipboard!', {
+      toastClassName: 'black',
+    })
     return true
   } catch (err) {
     console.error('Failed to copy: ', err)
@@ -102,4 +107,4 @@ onMounted(() => {
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

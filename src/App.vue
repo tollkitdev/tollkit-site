@@ -11,4 +11,8 @@ import TopNavSection from '@/components/layout/TopNavSection.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style>
+.Vue-Toastification__toast--default.black {
+  background-color: black;
+}
+</style>

@@ -24,11 +24,13 @@
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { addToWaitlist } from '@/lib/waitlist'
+import { useToast } from 'vue-toastification'
 
 const email = ref('')
 const route = useRoute()
 const router = useRouter()
 const referredBy = ref<string | null>(null)
+const toast = useToast()
 
 async function handleSubmit() {
   if (!email.value) {
@@ -39,6 +41,7 @@ async function handleSubmit() {
   try {
     await addToWaitlist(email.value, referredBy.value)
     router.push(`/waitlist-status?email=${email.value}`)
+    toast.success('Success!')
   } catch (error) {
     console.log(error, 'error adding to waitlist')
   }
