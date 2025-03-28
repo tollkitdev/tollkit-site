@@ -1,0 +1,112 @@
+@import './base.css';
+
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('@/assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('@/assets/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-code: 'JetBrains Mono', monospace;
+
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(97% 0 0);
+  --color-base-300: oklch(94% 0 0);
+  --color-base-content: oklch(0% 0 0);
+
+  --color-primary: oklch(15.906% 0 0);
+  --color-primary-content: oklch(100% 0 0);
+
+  --color-secondary: oklch(21.455% 0.001 17.278);
+  --color-secondary-content: oklch(100% 0 0);
+
+  --color-accent: oklch(26.861% 0 0);
+  --color-accent-content: oklch(100% 0 0);
+
+  --color-neutral: oklch(0% 0 0);
+  --color-neutral-content: oklch(100% 0 0);
+
+  --color-info: oklch(79.54% 0.103 205.9);
+  --color-info-content: oklch(15.908% 0.02 205.9);
+
+  --color-success: oklch(90.13% 0.153 164.14);
+  --color-success-content: oklch(18.026% 0.03 164.14);
+
+  --color-warning: oklch(88.37% 0.135 79.94);
+  --color-warning-content: oklch(17.674% 0.027 79.94);
+
+  --color-error: oklch(78.66% 0.15 28.47);
+  --color-error-content: oklch(15.732% 0.03 28.47);
+
+  --radius-btn: 0.5rem;
+  --radius-card: 0.5rem;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 font-semibold transition;
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+    border-radius: var(--radius-btn);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .btn-accent {
+    background-color: var(--color-accent);
+    color: var(--color-accent-content);
+  }
+
+  .btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-content);
+  }
+
+  .card {
+    background-color: var(--color-base-100);
+    color: var(--color-base-content);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-soft);
+    padding: 1.5rem;
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-primary-content {
+    color: var(--color-primary-content);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-base-100 {
+    background-color: var(--color-base-100);
+  }
+
+  .text-base-content {
+    color: var(--color-base-content);
+  }
+}
+
+#app {
+  font-family: var(--font-code);
+}
+
+code {
+  font-family: var(--font-code);
+}
