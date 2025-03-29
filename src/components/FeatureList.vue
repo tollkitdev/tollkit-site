@@ -4,7 +4,7 @@
       <h3 class="text-lg font-semibold text-primary mb-2">Feature Access by Plan</h3>
       <p class="text-sm">
         Gate any route, button, or component with
-        <code class="bg-neutral text-nuetral-content px-1 rounded">canAccess('pro')</code>. Tollkit
+        <code class="bg-neutral text-neutral-content px-1 rounded">canAccess('pro')</code>. Tollkit
         handles the logic.
       </p>
     </div>
