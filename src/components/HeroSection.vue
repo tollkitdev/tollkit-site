@@ -17,7 +17,7 @@
       Tollkit is your Stripe-native backend for subscriptions, feature gating, and access control —
       all in one plug-and-play SDK.
     </p> -->
-    <p class="text-lg text-neutral-600">
+    <p class="text-lg">
       Tollkit handles the boring backend bits of your SaaS — Stripe syncing, access control, auth,
       and more — so you can stay focused on your product.
     </p>

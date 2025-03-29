@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeroSection class="mx-auto max-w-4xl text-center px-10 py-20 mt-30" />
+    <HeroSection class="mx-auto max-w-4xl text-center px-10 py-20 md:mt-30" />
     <!-- <WaitlistForm class="my-20" /> -->
 
     <VisualPreview class="mx-auto max-w-4xl text-center px-10 py-20" />
