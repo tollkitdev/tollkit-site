@@ -1,23 +1,23 @@
 <template>
   <div>
-    <HeroSection class="mx-auto max-w-4xl text-center p-10 md:py-20 md:mt-30" />
+    <HeroSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20 md:mt-30" />
     <!-- <WaitlistForm class="my-20" /> -->
 
-    <VisualPreview class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <VisualPreview class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <FOMOSection class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <FOMOSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <FeatureList class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <FeatureList class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <SimplicitySection class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <SimplicitySection class="mx-auto max-w-4xl text-center py-15 px-10 md:py-20" />
 
-    <WhoFor class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <WhoFor class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <FounderNote class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <FounderNote class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
     <!-- <FeatureBenefitOutcome /> -->
 
-    <WaitlistForm class="mx-auto max-w-4xl text-center p-10 md:py-20" />
+    <WaitlistForm class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
   </div>
 </template>
 
