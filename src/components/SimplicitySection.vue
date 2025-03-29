@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6 text-center max-w-3xl mx-auto">
+  <section>
     <h2 class="text-2xl font-bold mb-4">No setup. No sync. No nonsense.</h2>
     <p class="text-neutral-600 mb-6">
       Tollkit works out of the box with your Stripe setup. Drop it in, gate features, and ship

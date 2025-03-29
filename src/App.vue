@@ -4,7 +4,7 @@ import TopNavSection from '@/components/layout/TopNavSection.vue'
 </script>
 
 <template>
-  <div class="bg-base-100 text-base-content">
+  <div>
     <TopNavSection />
     <router-view></router-view>
     <FooterSection />

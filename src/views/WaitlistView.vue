@@ -1,21 +1,23 @@
 <template>
-  <div class="min-h-screen flex flex-col justify-center items-center">
-    <div class="max-w-7xl">
-      <HeroSection class="mb-16 mt-40 max-w-4xl mx-auto" />
-      <!-- <WaitlistForm class="my-20" /> -->
+  <div>
+    <HeroSection class="mx-auto max-w-4xl text-center px-10 py-20 mt-30" />
+    <!-- <WaitlistForm class="my-20" /> -->
 
-      <VisualPreview class="my-16" />
-      <FOMOSection class="py-20 px-6 text-center bg-base-200" />
-      <FeatureList class="my-16" />
+    <VisualPreview class="mx-auto max-w-4xl text-center px-10 py-20" />
 
-      <SimplicitySection class="max-w-4xl mx-auto" />
-      <WhoFor class="mx-auto bg-base-200 p-24" />
+    <FOMOSection class="mx-auto max-w-4xl text-center px-10 py-20" />
 
-      <FounderNote class="py-20 px-6 max-w-xl mx-auto text-center" />
-      <!-- <FeatureBenefitOutcome /> -->
+    <FeatureList class="mx-auto max-w-4xl text-center px-10 py-20" />
 
-      <WaitlistForm class="my-25" />
-    </div>
+    <SimplicitySection class="mx-auto max-w-4xl text-center px-10 py-20" />
+
+    <WhoFor class="mx-auto max-w-4xl text-center px-10 py-20" />
+
+    <FounderNote class="mx-auto max-w-4xl text-center px-10 py-20" />
+
+    <!-- <FeatureBenefitOutcome /> -->
+
+    <WaitlistForm class="mx-auto max-w-4xl text-center px-10 py-20" />
   </div>
 </template>
 

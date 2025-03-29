@@ -1,8 +1,8 @@
 <template>
-  <header class="flex items-center justify-between px-6 py-4 bg-white border-b border-base-300">
-    <h1 class="text-lg font-semibold text-gray-800">Tollkit</h1>
+  <header class="flex items-center justify-between px-6 py-4 border-b border-base-300">
+    <h1 class="text-lg font-semibold">Tollkit</h1>
 
-    <button @click="goHome" class="btn bg-primary hover:bg-primary-focus text-white">Home</button>
+    <button @click="goHome" class="btn bg-primary hover:bg-primary-focus">Home</button>
   </header>
 </template>
 

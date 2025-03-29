@@ -18,7 +18,7 @@ export async function getWaitlistUserByEmail(email: string) {
   return data
 }
 
-export async function addToWaitlist(email: string, referredBy?: string) {
+export async function addToWaitlist(email: string, referredBy?: string | null) {
   // Check if the user already exists
   const existingUser = await getWaitlistUserByEmail(email)
   if (existingUser) return existingUser
