@@ -7,7 +7,7 @@
 
     <FOMOSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <WhyTollkit class="py-16 px-6 md:px-12 lg:px-20 max-w-6xl mx-auto" />
+    <WhySection class="py-16 px-6 md:px-12 lg:px-20 max-w-6xl mx-auto" />
 
     <FounderNote class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
     <!-- <FeatureList class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" /> -->
@@ -34,5 +34,5 @@ import FOMOSection from '@/components/FOMOSection.vue'
 import VisualPreview from '@/components/VisualPreview.vue'
 import FounderNote from '@/components/FounderNote.vue'
 
-import WhyTollkit from '@/components/WhyTollkit.vue'
+import WhySection from '@/components/WhySection.vue'
 </script>
