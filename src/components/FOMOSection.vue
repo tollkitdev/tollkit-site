@@ -5,8 +5,7 @@
       We’re rolling out to a small group of early adopters to shape the roadmap. Get in early — help
       shape the future.
     </p>
-    <a href="#waitlist" class="btn hover:bg-accent-focus px-6 py-2 rounded-btn">
-      Join the Waitlist
-    </a>
+
+    <a href="#waitlist" class="btn"> Join the Waitlist </a>
   </section>
 </template>

@@ -1,20 +1,21 @@
 <template>
   <header class="flex items-center justify-between px-6 py-4 border-b border-base-300">
-    <h1 class="text-lg font-semibold">Tollkit</h1>
+    <div class="flex">
+      <TermIcon class="h-6 w-6 svg-primary mr-2" />
 
-    <button
-      v-if="route.name === 'Home'"
-      @click="scrollToWaitlist"
-      class="btn bg-primary hover:bg-primary-focus"
-    >
+      <span class="font-semibold font-mono text-xl">Tollkit</span>
+    </div>
+
+    <button v-if="route.name === 'Home'" @click="scrollToWaitlist" class="btn bg-primary">
       Join Waitlist
     </button>
 
-    <button v-else @click="goHome" class="btn bg-primary hover:bg-primary-focus">Home</button>
+    <button v-else @click="goHome" class="btn bg-primary">Home</button>
   </header>
 </template>
 
 <script setup lang="ts">
+import TermIcon from '@/components/TermIcon.vue'
 import { useRouter, useRoute } from 'vue-router'
 
 const router = useRouter()

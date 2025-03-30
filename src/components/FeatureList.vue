@@ -1,7 +1,7 @@
 <template>
   <div class="grid md:grid-cols-3 gap-6">
     <div class="card">
-      <h3 class="text-lg font-semibold text-primary mb-2">Feature Access by Plan</h3>
+      <h4>Feature Access by Plan</h4>
       <p class="text-sm">
         Gate any route, button, or component with
         <code class="bg-neutral text-neutral-content px-1 rounded">canAccess('pro')</code>. Tollkit
@@ -9,13 +9,13 @@
       </p>
     </div>
     <div class="card">
-      <h3 class="text-lg font-semibold text-primary mb-2">No Webhooks. No Syncing.</h3>
+      <h4>No Webhooks. No Syncing.</h4>
       <p class="text-sm">
         Skip the headache of syncing Stripe plans or dealing with edge cases. Just query and go.
       </p>
     </div>
     <div class="card">
-      <h3 class="text-lg font-semibold text-primary mb-2">Self-Host or Use Ours</h3>
+      <h4>Self-Host or Use Ours</h4>
       <p class="text-sm">
         Need control? Self-host easily. Don’t care? We’ll manage infra, auth, and billing for you.
       </p>

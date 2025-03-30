@@ -9,9 +9,9 @@
       Tollkit turns Stripe plans into feature access control, so you can skip billing glue code.
     </p> -->
 
-    <h1 class="text-5xl font-bold leading-tight mb-6">
+    <h1 class="leading-tight mb-6">
       Skip billing boilerplate.<br />
-      Ship paid features <span class="underline">faster</span>.
+      Ship <span class="text-primary"> paid features faster.</span>
     </h1>
     <!-- <p class="text-lg text-neutral-600">
       Tollkit is your Stripe-native backend for subscriptions, feature gating, and access control —
