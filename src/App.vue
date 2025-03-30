@@ -5,7 +5,7 @@ import TopNavSection from '@/components/layout/TopNavSection.vue'
 
 <template>
   <div>
-    <TopNavSection />
+    <TopNavSection class="sticky top-0" />
     <router-view></router-view>
     <FooterSection />
   </div>

@@ -1,16 +1,16 @@
 <template>
-  <header class="flex items-center justify-between px-6 py-4 border-b border-base-300">
+  <header class="flex items-center justify-between px-6 py-4 border-b border-base-300 bg-base-100">
     <div class="flex">
       <TermIcon class="h-6 w-6 svg-primary mr-2" />
 
       <span class="font-semibold font-mono text-xl">Tollkit</span>
     </div>
 
-    <button v-if="route.name === 'Home'" @click="scrollToWaitlist" class="btn bg-primary">
+    <button v-if="route.name === 'Home'" @click="scrollToWaitlist" class="btn">
       Join Waitlist
     </button>
 
-    <button v-else @click="goHome" class="btn bg-primary">Home</button>
+    <button v-else @click="goHome" class="btn">Home</button>
   </header>
 </template>
 
