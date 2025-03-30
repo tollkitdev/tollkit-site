@@ -30,6 +30,10 @@ const router = useRouter()
 const referredBy = ref<string | null>(null)
 const toast = useToast()
 
+function isValidEmail(email: string): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+}
+
 async function handleSubmit() {
   if (!email.value) {
     console.log('Invalid email')
@@ -37,6 +41,11 @@ async function handleSubmit() {
   }
 
   try {
+    if (!isValidEmail(email.value)) {
+      toast.error('Invalid Email')
+      return
+    }
+
     await addToWaitlist(email.value, referredBy.value)
     router.push(`/waitlist-status?email=${email.value}`)
     toast.success('Success!')
