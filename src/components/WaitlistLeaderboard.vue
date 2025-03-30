@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <div v-if="!signupUser">
-      <h1 class="text-2xl my-10">Get Early Access to TollKit</h1>
+      <h1 class="text-2xl my-10">Get Early Access to Tollkit</h1>
 
       <form @submit.prevent="getUser" class="flex flex-col sm:flex-row gap-4 justify-center">
         <input

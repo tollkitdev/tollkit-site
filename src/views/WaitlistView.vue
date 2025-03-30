@@ -7,7 +7,7 @@
 
     <FOMOSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 
-    <WhyTollKit class="py-16 px-6 md:px-12 lg:px-20 max-w-6xl mx-auto" />
+    <WhyTollkit class="py-16 px-6 md:px-12 lg:px-20 max-w-6xl mx-auto" />
 
     <!-- <FeatureList class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" /> -->
 
@@ -25,15 +25,15 @@
 
 <script setup lang="ts">
 import HeroSection from '@/components/HeroSection.vue'
-import FeatureList from '@/components/FeatureList.vue'
 import WaitlistForm from '@/components/WaitlistForm.vue'
-import WhoFor from '@/components/WhoFor.vue'
 import FOMOSection from '@/components/FOMOSection.vue'
-import SimplicitySection from '@/components/SimplicitySection.vue'
+// import FeatureList from '@/components/FeatureList.vue'
+// import WhoFor from '@/components/WhoFor.vue'
+// import SimplicitySection from '@/components/SimplicitySection.vue'
+// import FeatureBenefitOutcome from '@/components/FeatureBenefitOutcome.vue'
 
 import VisualPreview from '@/components/VisualPreview.vue'
 import FounderNote from '@/components/FounderNote.vue'
 
-import WhyTollKit from '@/components/WhyTollKit.vue'
-// import FeatureBenefitOutcome from '@/components/FeatureBenefitOutcome.vue'
+import WhyTollkit from '@/components/WhyTollkit.vue'
 </script>
