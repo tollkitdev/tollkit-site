@@ -11,7 +11,7 @@
 
     <h1 class="leading-tight mb-6">
       Skip billing boilerplate.<br />
-      Ship <span class="text-primary"> paid features faster.</span>
+      <span class="text-primary">Ship paid features faster.</span>
     </h1>
     <!-- <p class="text-lg text-neutral-600">
       Tollkit is your Stripe-native backend for subscriptions, feature gating, and access control —

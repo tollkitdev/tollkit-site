@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="text-2xl font-bold mb-4">Made for Frontend-First Founders</h2>
+    <h3 class="text-2xl font-bold mb-4">Made for Frontend-First Founders</h3>
     <!-- <p class="text-neutral-600">
       Whether you’re shipping solo, working in a small team, or building your third SaaS, Tollkit
       gives you Stripe-native backend powers — without the backend.

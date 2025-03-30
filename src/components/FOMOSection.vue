@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="text-xl font-bold mb-4">Early access is limited</h2>
+    <h3 class="text-xl font-bold mb-4">Early access is limited</h3>
     <p class="mb-4">
       We’re rolling out to a small group of early adopters to shape the roadmap. Get in early — help
       shape the future.
