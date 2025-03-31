@@ -1,6 +1,6 @@
 <template>
   <section id="waitlist">
-    <h2 class="text-2xl font-bold mb-4"><span class="text-primary">→</span> Get early access</h2>
+    <h2 class="text-2xl font-bold mb-4"><span class="text-accent">→</span> Get early access</h2>
     <p class="mb-6">We’ll email you when we’re ready to launch. No spam, ever.</p>
 
     <!-- Replace with Tally/Formspree or native -->

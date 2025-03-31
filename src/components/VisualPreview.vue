@@ -11,8 +11,8 @@
       class="card rounded-card p-6 max-w-xl mx-auto shadow-lg font-mono text-left text-sm overflow-x-auto"
     >
       <pre><code>
-  if (canAccess('custom_branding')) {
-    showButton()
+  if (<span class="text-accent">canAccess</span>(<span class=text-primary>'custom_branding'</span>)) {
+    <span class="text-accent">showButton</span>()
   }
         </code></pre>
     </div>
