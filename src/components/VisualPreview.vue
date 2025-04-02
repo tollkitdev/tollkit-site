@@ -1,25 +1,6 @@
 <template>
-  <!-- <section>
-    <div class="max-w-2xl mx-auto text-center mb-6">
-      <h3 class="font-bold mb-2">Feature access in one line</h3>
-      <p class="">
-        No boilerplate, no backend setup. Just drop in and gate any component, route, or feature.
-      </p>
-    </div>
-
-    <div
-      class="card rounded-card p-6 max-w-xl mx-auto shadow-lg font-mono text-left text-sm overflow-x-auto"
-    >
-      <pre><code>
-  if (<span class="text-accent">canAccess</span>(<span class=text-primary>'custom_branding'</span>)) {
-    <span class="text-accent">showButton</span>()
-  }
-        </code></pre>
-    </div>
-  </section> -->
-
   <section>
-    <div class="max-w-3xl mx-auto text-center mb-8">
+    <div class="mb-8 text-center">
       <h3 class="font-bold text-lg mb-2">Centralized access logic, zero duplication</h3>
       <p class="text-gray-300">
         Define your access rules once and use them across your frontend and backend — no
