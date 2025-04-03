@@ -87,6 +87,11 @@ button:focus {
   outline-offset: 2px;
 }
 
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-accent-content);
+}
+
 /* Extra Large Display Text Styles */
 .display-xl {
   @apply text-7xl font-black leading-none tracking-tight font-mono mb-6;

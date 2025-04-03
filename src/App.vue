@@ -4,10 +4,12 @@ import TopNavSection from '@/components/layout/TopNavSection.vue'
 </script>
 
 <template>
-  <div>
-    <TopNavSection class="sticky top-0" />
-    <router-view></router-view>
-    <FooterSection />
+  <div class="w-full min-h-screen overflow-x-hidden">
+    <div class="max-w-screen w-full overflow-x-hidden">
+      <TopNavSection class="sticky top-0" />
+      <router-view></router-view>
+      <FooterSection />
+    </div>
   </div>
 </template>
 
