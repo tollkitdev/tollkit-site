@@ -1,7 +1,8 @@
 <template>
   <section class="text-center">
     <h1 class="leading-tight mb-6">
-      Skip billing boilerplate.<br />
+      <!-- <span>Skip billing boilerplate.<br /></span> -->
+
       <span class="text-primary">Ship paid features faster.</span>
     </h1>
 
