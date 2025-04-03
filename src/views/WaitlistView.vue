@@ -3,7 +3,7 @@
     <HeroSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20 md:mt-30" />
     <!-- <WaitlistForm class="my-20" /> -->
 
-    <VisualPreview class="mx-auto max-w-4xl px-10 py-15 md:py-20" />
+    <VisualPreview class="mx-auto max-w-6xl px-10 py-15 md:py-20" />
 
     <FOMOSection class="mx-auto max-w-4xl text-center px-10 py-15 md:py-20" />
 

@@ -8,33 +8,33 @@
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto font-mono text-sm">
+    <div class="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto font-mono text-sm">
       <!-- Before Tollkit -->
-      <div>
+      <div class="flex flex-col">
         <div class="text-xs text-gray-400 uppercase mb-2">Without Tollkit</div>
-        <div class="rounded-card bg-gray-900 p-4 shadow-lg overflow-x-auto">
+        <div class="rounded-card bg-gray-900 grow p-4 shadow-lg overflow-x-auto">
           <pre><code class="text-left text-white">
 <span class="text-gray-400">// Frontend</span>
-const user = useCurrentUser();
-const team = useCurrentTeam();
+const user = <span class="text-accent">useCurrentUser</span>();
+const team = <span class="text-accent">useCurrentTeam</span>();
 
-const hasAccess = (
-  (user.plan === 'pro' || user.plan === 'team') &&
+const <span class="text-accent">hasAccess</span> = (
+  (user.plan === <span class=text-primary>'pro'</span>  || user.plan === <span class="text-primary">'team'</span>) &&
   user.trialEnded &&
-  team.role === 'admin'
+  team.role === <span class="text-primary">'admin'</span>
 );
 
 if (hasAccess) {
-  showAnalyticsDashboard();
+  <span class=text-accent>showAnalyticsDashboard</span>();
 }
 
 <span class="text-gray-400">// Backend</span>
 if (
-  (user.plan !== 'pro' && user.plan !== 'team') ||
+  (user.plan !== <span class="text-primary">'pro'</span> && user.plan !== <span class=text-primary>'team'</span>) ||
   !user.trialEnded ||
-  user.team.role !== 'admin'
+  user.team.role !== <span class="text-primary">'admin'</span>
 ) {
-  return res.status(403).json({ error: 'Access denied' });
+  return res.status(403).<span class="text-accent">json</span>({ error: 'Access denied' });
 }
           </code></pre>
         </div>
@@ -52,20 +52,20 @@ if (<span class="text-accent">canAccess</span>(<span class="text-primary">'analy
 
 <span class="text-gray-400">// Backend</span>
 if (!<span class="text-accent">checkAccess</span>(user, <span class="text-primary">'analytics_dashboard'</span>)) {
-  return res.forbidden();
+  return res.<span class="text-accent">forbidden</span>();
 }
           </code></pre>
         </div>
 
-        <div class="rounded-card bg-gray-800 p-4 shadow overflow-x-auto">
+        <div class="rounded-card bg-gray-900 p-4 shadow overflow-x-auto">
           <div class="text-xs text-gray-400 uppercase mb-2">access.config.js</div>
           <pre><code class="text-left text-white">
 export default {
   rules: {
     analytics_dashboard: {
-      plans: ['pro', 'team'],
-      trialEnded: true,
-      role: ['admin']
+      plans: [ <span class="text-primary">'pro'</span>, <span class="text-primary">'team'</span>],
+      trialEnded: <span class="text-accent">true</span>,
+      role: [<span class="text-primary">'admin'</span>]
     }
   }
 }
