@@ -87,6 +87,11 @@ button:focus {
   outline-offset: 2px;
 }
 
+pre {
+  word-break: normal;
+  white-space: pre;
+}
+
 ::selection {
   background-color: var(--color-accent);
   color: var(--color-accent-content);
