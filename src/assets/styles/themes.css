@@ -40,13 +40,21 @@
   --font-mono: 'JetBrains Mono', monospace;
   --font-sans: 'Satoshi', system-ui, sans-serif;
 
-  --color-base-100: oklch(18% 0.015 265);
+  /* --color-base-100: oklch(18% 0.015 265);
+  --color-base-200: oklch(25% 0.015 265);
+  --color-base-300: oklch(32% 0.01 265); */
+  /* --color-base-content: oklch(95% 0 0); */
+
+  --color-base-100: oklch(16% 0.015 265);
   --color-base-200: oklch(25% 0.015 265);
   --color-base-300: oklch(32% 0.01 265);
-  --color-base-content: oklch(95% 0 0);
+  --color-base-content: oklch(97% 0 0);
 
-  --color-primary: oklch(90.13% 0.153 164.14);
+  /* --color-primary: oklch(90.13% 0.153 164.14); */
   --color-primary-content: oklch(18% 0.015 265);
+
+  /* --color-primary: oklch(85% 0.22 158); */
+  --color-primary: oklch(85% 0.22 170);
 
   --color-secondary: oklch(30% 0.01 265);
   --color-secondary-content: oklch(92% 0 0);
@@ -64,7 +72,7 @@
   --color-info: oklch(79.54% 0.103 205.9);
   --color-info-content: oklch(15.908% 0.02 205.9);
 
-  --color-success: oklch(90.13% 0.153 164.14);
+  --color-success: oklch(85% 0.22 170);
   --color-success-content: oklch(18.026% 0.03 164.14);
 
   --color-warning: oklch(88.37% 0.135 79.94);
@@ -73,8 +81,10 @@
   --color-error: oklch(78.66% 0.15 28.47);
   --color-error-content: oklch(15.732% 0.03 28.47);
 
-  --radius-btn: 0.5rem;
-  --radius-card: 0.5rem;
+  /* --radius-btn: 0.5rem; */
+  --radius-btn: 0.2rem;
+  --radius-card: 0.2rem;
+  --radius-input: 0.2rem;
   --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 

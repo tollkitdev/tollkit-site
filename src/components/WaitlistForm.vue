@@ -10,7 +10,7 @@
         type="email"
         name="email"
         required
-        class="input border-2 rounded-md"
+        class="input border-2 rounded-radius-btn"
         placeholder="you@domain.com"
       />
       <button type="submit" class="btn">Notify Me</button>
