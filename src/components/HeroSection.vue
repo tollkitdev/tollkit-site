@@ -7,8 +7,8 @@
     </h1>
 
     <p class="text-lg">
-      Tollkit handles the boring backend bits of your SaaS — Stripe syncing, access control, auth,
-      and more — so you can stay focused on your product.
+      Access infrastructure for modern SaaS. Tollkit syncs Stripe, controls features, and keeps your
+      product logic clean at any scale.
     </p>
   </section>
 </template>
