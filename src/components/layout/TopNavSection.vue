@@ -1,6 +1,6 @@
 <template>
   <header
-    class="z-50 sticky top-3 mx-3 flex items-center justify-between px-6 py-3 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm shadow-md"
+    class="z-50 sticky top-3 mx-3 flex items-center justify-between px-6 py-3 rounded-xl border border-white/10 bg-gray-400/5 backdrop-blur-xl shadow-md"
   >
     <div class="flex">
       <TermIcon class="h-6 w-6 svg-accent mr-2" />
