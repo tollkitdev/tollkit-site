@@ -8,9 +8,9 @@
       </p>
     </div>
 
-    <div class="mx-auto font-mono text-sm grid md:grid-cols-2 gap-6">
+    <div class="mx-auto font-mono text-sm gap-6">
       <!-- Before Tollkit -->
-      <div class="flex flex-col min-w-0">
+      <div v-if="false" class="flex flex-col min-w-0">
         <div class="text-xs text-gray-400 uppercase mb-2">Without Tollkit</div>
         <div class="card grow p-4 shadow-lg overflow-x-auto">
           <pre><code class="whitespace-pre text-left text-white">
