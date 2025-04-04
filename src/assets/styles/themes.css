@@ -222,3 +222,36 @@
   --radius-input: 0.4rem;
   --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
+
+[data-theme='tollcast'] {
+  /* Use for: Page backgrounds, surface cards, elevated panels, and global typography. */
+  --color-base-100: oklch(12.5% 0.005 265); /* Near black */
+  --color-base-200: oklch(18% 0.008 265); /* Surface cards */
+  --color-base-300: oklch(24% 0.01 265); /* Slightly lifted UI */
+  --color-base-content: oklch(97% 0 0); /* Pure white text */
+
+  /* Use for: Headlines, key UI labels, identity elements. */
+  --color-primary: oklch(92% 0.005 260);
+  --color-primary-content: oklch(15% 0.005 260);
+
+  /* Use for: Interactive elements (CTAs, highlights), not decor. */
+  /* Tip: Limit usage to 1–2 accent moments per screen for maximum impact. It should pop. */
+  --color-accent: oklch(78% 0.15 190);
+  --color-accent-content: oklch(10% 0.005 180);
+
+  /* Use for: Boring but useful: borders, outlines, low-contrast text. */
+  --color-neutral: oklch(22% 0.006 260);
+  --color-neutral-content: oklch(88% 0.005 260);
+
+  --color-success: oklch(78% 0.12 150);
+  --color-success-content: oklch(15% 0.02 150);
+
+  --color-error: oklch(65% 0.17 25);
+  --color-error-content: oklch(15% 0.03 25);
+
+  /* Modern soft visuals */
+  --radius-btn: 0.375rem;
+  --radius-card: 0.5rem;
+  --radius-input: 0.375rem;
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
