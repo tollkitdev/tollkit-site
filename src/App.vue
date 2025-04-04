@@ -4,7 +4,7 @@ import TopNavSection from '@/components/layout/TopNavSection.vue'
 </script>
 
 <template>
-  <TopNavSection class="sticky top-0" />
+  <TopNavSection />
   <div class="w-full min-h-screen overflow-x-hidden">
     <div class="max-w-screen w-full overflow-x-hidden">
       <router-view></router-view>

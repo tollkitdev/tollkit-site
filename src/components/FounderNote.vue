@@ -1,7 +1,7 @@
 <template>
   <section>
     <p class="italic mb-4">
-      “I’ve wired up Stripe access logic from scratch too many times. Tollkit is the Stripe-native
+      “I’ve wired up Stripe access logic from scratch too many times. Tollkit is the infrastructure
       layer I always wished existed — so I’m building it.”
     </p>
     <div class="text-sm">— Ian Davis, Founder</div>

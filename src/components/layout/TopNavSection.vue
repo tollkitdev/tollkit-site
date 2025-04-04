@@ -1,5 +1,7 @@
 <template>
-  <header class="flex items-center justify-between px-6 py-4 border-b border-base-300 bg-base-100">
+  <header
+    class="z-50 sticky top-3 mx-3 flex items-center justify-between px-6 py-3 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm shadow-md"
+  >
     <div class="flex">
       <TermIcon class="h-6 w-6 svg-accent mr-2" />
 
