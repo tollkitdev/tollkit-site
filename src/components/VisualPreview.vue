@@ -12,7 +12,7 @@
       <!-- Before Tollkit -->
       <div class="flex flex-col min-w-0">
         <div class="text-xs text-gray-400 uppercase mb-2">Without Tollkit</div>
-        <div class="rounded-card bg-gray-900 grow p-4 shadow-lg overflow-x-auto">
+        <div class="card grow p-4 shadow-lg overflow-x-auto">
           <pre><code class="whitespace-pre text-left text-white">
 <span class="text-gray-400">// Frontend</span>
 const user = <span class="text-accent">useCurrentUser</span>();
@@ -43,7 +43,7 @@ if (
       <!-- With Tollkit -->
       <div class="flex flex-col min-w-0">
         <div class="text-xs text-gray-400 uppercase mb-2">With Tollkit</div>
-        <div class="rounded-card bg-gray-900 p-4 shadow-lg overflow-x-auto mb-4">
+        <div class="card p-4 shadow-lg overflow-x-auto mb-4">
           <pre><code class="text-left text-white">
 <span class="text-gray-400">// Frontend</span>
 if (<span class="text-accent">canAccess</span>(<span class="text-primary">'analytics_dashboard'</span>)) {
@@ -57,7 +57,7 @@ if (!<span class="text-accent">checkAccess</span>(user, <span class="text-primar
           </code></pre>
         </div>
 
-        <div class="rounded-card bg-gray-900 p-4 shadow overflow-x-auto">
+        <div v-if="false" class="rounded-card p-4 shadow overflow-x-auto">
           <div class="text-xs text-gray-400 uppercase mb-2">access.config.js</div>
           <pre><code class="text-left text-white">
 export default {
