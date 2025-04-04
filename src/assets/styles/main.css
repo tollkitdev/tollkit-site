@@ -74,6 +74,10 @@
     outline-offset: 2px;
   }
 
+  a {
+    color: var(--color-primary);
+  }
+
   .btn-accent {
     background-color: var(--color-accent);
     color: var(--color-accent-content);
