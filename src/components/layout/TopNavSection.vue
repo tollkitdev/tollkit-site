@@ -3,7 +3,7 @@
     <div class="flex">
       <TermIcon class="h-6 w-6 svg-primary mr-2" />
 
-      <span class="font-semibold font-mono text-xl">Tollkit</span>
+      <span class="font-semibold text-xl">Tollkit</span>
     </div>
 
     <button v-if="route.name === 'Home'" @click="scrollToWaitlist" class="btn">

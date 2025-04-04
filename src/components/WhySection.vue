@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="text-center mb-12">
-      <h3 class="text-4xl font-mono font-semibold mb-4">
+      <h3 class="text-4xl font-semibold mb-4">
         Tollkit does the stuff every SaaS needs — but nobody wants to build.
       </h3>
       <p class="text-base-content max-w-2xl mx-auto text-lg">
