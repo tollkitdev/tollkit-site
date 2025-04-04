@@ -3,7 +3,7 @@
     <h1 class="leading-tight mb-6">
       <!-- <span>Skip billing boilerplate.<br /></span> -->
 
-      <span class="text-primary">Ship paid features faster.</span>
+      <span>Ship paid features faster.</span>
     </h1>
 
     <p class="text-lg">
@@ -12,5 +12,3 @@
     </p>
   </section>
 </template>
-
-<script setup lang="ts"></script>
